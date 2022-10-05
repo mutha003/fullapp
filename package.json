@@ -1,0 +1,17 @@
+{
+  "name": "node-full-website",
+  "version": "1.0.0",
+  "description": "this is full node js app",
+  "main": "app.js",
+  "scripts": {
+    "start":"node ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mutha",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "hbs": "^4.2.0",
+    "mongoose": "^6.6.4"
+  }
+}
